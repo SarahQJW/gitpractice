@@ -13,8 +13,8 @@ git branch -vv
 - -a : to see all local and remote branches
 
 #### (optional) change the branch name
-#### old-branch-name: main
-#### new-branch-name: master
+##### old-branch-name: main
+##### new-branch-name: master
 git branch -m old-branch-name new-branch-name
 #### (optional) delete remote branch
 git push origin --delete old-branch-name
@@ -37,6 +37,10 @@ git checkout -b feature/BCE-XXX or bugfix/BCE-XXX
 ### if branch existed, switch to a branch in your local repo
 git checkout feature/BCE-XXX or bugfix/BCE-XXX
 
+### add all change 
+git add .
+### commit change
+git commit -m "add xxx"
 
 ### 4.test your feature or bugfix, if work well, push to remote
 git push origin feature/BCE-XXX or bugfix/BCE-XXX
